@@ -1,6 +1,6 @@
 # Sleep Detection using Raspberry Pi
 
-![Sleep Detection](Sleep-Detection.mp4)
+![Sleep Detection](Sleep-Detection.png)
 
 ## Overview
 
@@ -71,7 +71,10 @@ Before setting up the Sleep Detection system, ensure you have the following prer
    git clone https://github.com/your-username/sleep-detection.git
    ```
 
-6. Change to the project directory:
+6.Download the file "shape_predictor_68_face_landmarks.dat"
+   -[Download landmarks.dat](https://github.com/tzutalin/dlib-android/blob/master/data/shape_predictor_68_face_landmarks.dat)
+
+7. Change to the project directory:
 
    ```
    cd sleep-detection
@@ -91,7 +94,7 @@ Before setting up the Sleep Detection system, ensure you have the following prer
 
 4. Keep an eye on the terminal for any sleepiness alerts. The system will raise an alert if the eyes remain closed for an extended period.
 
-5. To stop the sleep detection process, press `Ctrl + C` in the terminal.
+5. To stop the sleep detection process, press `q`.
 
 ## Contributing
 
