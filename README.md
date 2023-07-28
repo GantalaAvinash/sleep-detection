@@ -1,6 +1,6 @@
 # Sleep Detection using Raspberry Pi
 
-![Sleep Detection](Sleep-Detection.png)
+![Sleep Detection](Sleep-Detection.png=250x250)
 
 ## Overview
 
